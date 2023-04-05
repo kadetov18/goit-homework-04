@@ -206,17 +206,28 @@ header {
 .item-svg {
 }
 
-.svg-list {
+.goals-svg-wrap {
+  width: 264px;
+  height: 112px;
+  background: #F4F4FD;
+  border-radius: 4px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.goals-swg {
+  
+}
+
+.svg-list {
+  display: flex;  
   justify-content: center;
   gap: 10;
 }
 
-.svg-test {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .svg-item {
   background: #f4f4fd;
@@ -297,6 +308,12 @@ header {
   padding-bottom: 120px;
 }
 
+.team-item:hover,
+.team-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .our-tram {
   display: flex;
 }
@@ -370,6 +387,11 @@ header {
   align-items: center;
   fill: #f4f4fd;
 }
+
+.social:hover, 
+.social:focus {
+  background-color: #3441C7;
+}
 .link {
 }
 
@@ -401,6 +423,9 @@ header {
 }
 .list {
 }
+.use-swg {
+  fill: #4d5ae5;
+}
 .customers-item {
   box-sizing: border-box;
   border: 1px solid #8e8f99;
@@ -408,11 +433,19 @@ header {
   padding: 16px 32px 16px 32px;
   margin-right: 24px;
 }
+.customers-item:hover,
+.customers-item:focus {
+  border: 1px solid #3441C7;
+ 
+}
 .item {
 }
-.customers-link {
-  
+
+.customers-link:hover .svg-icon use {
+  fill: red;
+  z-index: 1;
 }
+
 .link {
 }
 /* section CUSTOMERS FINISH */
@@ -542,6 +575,15 @@ ul.img-list.list li:nth-last-child(-n + 3) {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+
+
 .img-list {
   display: flex;
   flex-wrap: wrap;
@@ -572,4 +614,6 @@ ul.img-list.list li:nth-last-child(-n + 3) {
   border: 1px solid #e7e9fc;
   width: 360px;
   margin-right: 0;
+
 }
+color: #4350DD;
