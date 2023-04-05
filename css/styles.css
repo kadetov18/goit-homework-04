@@ -212,13 +212,19 @@ header {
   gap: 10;
 }
 
+.svg-test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .svg-item {
   background: #f4f4fd;
   border-radius: 4px;
   width: 264px;
   height: 112px;
   margin-bottom: 8px;
-  
+  padding: 24px;
 }
 
 .goals {
@@ -335,10 +341,87 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
+  margin-bottom: 8px;
 }
+
+.svg-link-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.item {
+}
+.social-networck-svg {
+  width: 40px;
+  height: 40px;
+}
+.list {
+}
+.svg-wrap {
+}
+.social {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #f4f4fd;
+}
+.link {
+}
+
+/* section CUSTOMERS START */
+.customers {
+  box-sizing: border-box;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.container {
+}
+.title {
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+}
+.customers-item {
+  box-sizing: border-box;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+  margin-right: 24px;
+}
+.item {
+}
+.customers-link {
+  
+}
+.link {
+}
+/* section CUSTOMERS FINISH */
 
 /* index.html FOOTER */
 .web-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -363,10 +446,35 @@ header {
   letter-spacing: 0.02em;
   color: var(--color-footer-text);
 }
+.footer-wrap {
+  display: flex;
+  gap: 120px;
+}
 
 .logo-span-footer {
   color: var(--color-footer-text);
 }
+
+.footer-link-wrap {
+  align-items: center;
+}
+
+.footer-link-title {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.svg-footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
 /* index.html finish */
 
 /* portfolio.html start */
@@ -426,6 +534,12 @@ ul.img-list.list li:nth-last-child(-n + 3) {
 
 .portfolio-item-img {
   width: calc((100% - 48px) / 3);
+}
+
+.portfolio-item-img:hover,
+.portfolio-item-img:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .img-list {
