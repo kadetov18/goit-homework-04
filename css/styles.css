@@ -438,12 +438,19 @@ header {
   border: 1px solid #3441C7;
  
 }
-.item {
+
+.customers-use-svg {
+  fill: #8e8f99;
 }
 
-.customers-link:hover .svg-icon use {
-  fill: red;
-  z-index: 1;
+.customers-use-svg:hover {
+  fill: blue;
+}
+
+.test-with {
+  
+}
+.item {
 }
 
 .link {
